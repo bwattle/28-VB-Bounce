@@ -4,4 +4,4 @@
 <p>In mid April 2019, this project is in its very early stages. </p>
 
 
-<p>The project is from the Sam Davis text for Software Design and Development Course in NSW, Australia.</p>
+<p>This project is the sample project from chapter 8 the Sam Davis Software Design and Development text (P341-351) (http://www.pedc.com.au/sdd.php). This is a course for year 11 & 12 students in NSW, Australia.</p>
