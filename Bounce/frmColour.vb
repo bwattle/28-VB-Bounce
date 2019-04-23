@@ -1,7 +1,7 @@
 ﻿Imports System.Drawing.Drawing2D
 Public Class frmColour
     Dim g As Graphics
-    Dim c As New Rectangle(20, 20, 90, 90)
+    Dim c As New Rectangle(60, 20, 90, 90)
     Dim r As New Rectangle(0, 0, 130, 130)
     Dim myBallBrush As Brush
     Dim myBGBrush As Brush
@@ -20,13 +20,14 @@ Public Class frmColour
         colourBGFill_R = frmBounce.shpBGFill_R
         colourBGFill_G = frmBounce.shpBGFill_G
         colourBGFill_B = frmBounce.shpBGFill_B
-        myBGBrush = New SolidBrush(Color.FromArgb(colourBGFill_R, colourBGFill_G, colourBGFill_B))
-        g.FillRectangle(myBGBrush, r)
-        myBallBrush = New SolidBrush(Color.FromArgb(colourBallFill_R, colourBallFill_G, colourBallFill_B))
-        g.FillEllipse(myBallBrush, c)
         tbrRed.Value = colourBallFill_R
         tbrGreen.Value = colourBallFill_G
         tbrBlue.Value = colourBallFill_B
+        myBGBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
+        g.FillRectangle(myBGBrush, r)
+        myBallBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
+        g.FillEllipse(myBallBrush, c)
+
     End Sub
 
     Private Sub btnOK_Click(sender As Object, e As EventArgs) Handles btnOK.Click
@@ -45,15 +46,9 @@ Public Class frmColour
         If optBall.Checked Then
             myBallBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
             g.FillEllipse(myBallBrush, c)
-            colourBallFill_R = tbrRed.Value
-            colourBallFill_G = tbrGreen.Value
-            colourBallFill_B = tbrBlue.Value
         Else
             myBGBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
             g.FillRectangle(myBGBrush, r)
-            colourBGFill_R = tbrRed.Value
-            colourBGFill_G = tbrGreen.Value
-            colourBGFill_B = tbrBlue.Value
         End If
     End Sub
 
@@ -64,33 +59,25 @@ Public Class frmColour
 
     Private Sub optBall_CheckedChanged(sender As Object, e As EventArgs) Handles optBall.CheckedChanged
         If optBall.Checked Then
-            myBallBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
-            g.FillEllipse(myBallBrush, c)
-            colourBallFill_R = tbrRed.Value
-            colourBallFill_G = tbrGreen.Value
-            colourBallFill_B = tbrBlue.Value
+            tbrRed.Value = colourBallFill_R
+            tbrGreen.Value = colourBallFill_G
+            tbrBlue.Value = colourBallFill_B
         Else
-            myBGBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
-            g.FillRectangle(myBGBrush, r)
-            colourBGFill_R = tbrRed.Value
-            colourBGFill_G = tbrGreen.Value
-            colourBGFill_B = tbrBlue.Value
+            tbrRed.Value = colourBGFill_R
+            tbrGreen.Value = colourBGFill_G
+            tbrBlue.Value = colourBGFill_B
         End If
     End Sub
 
     Private Sub optBG_CheckedChanged(sender As Object, e As EventArgs) Handles optBG.CheckedChanged
         If optBall.Checked Then
-            colourBallFill_R = tbrRed.Value
-            colourBallFill_G = tbrGreen.Value
-            colourBallFill_B = tbrBlue.Value
-            myBallBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
-            g.FillEllipse(myBallBrush, c)
+            tbrRed.Value = colourBallFill_R
+            tbrGreen.Value = colourBallFill_G
+            tbrBlue.Value = colourBallFill_B
         Else
-            colourBGFill_R = tbrRed.Value
-            colourBGFill_G = tbrGreen.Value
-            colourBGFill_B = tbrBlue.Value
-            myBGBrush = New SolidBrush(Color.FromArgb(tbrRed.Value, tbrGreen.Value, tbrBlue.Value))
-            g.FillRectangle(myBGBrush, r)
+            tbrRed.Value = colourBGFill_R
+            tbrGreen.Value = colourBGFill_G
+            tbrBlue.Value = colourBGFill_B
         End If
     End Sub
 End Class

@@ -1,6 +1,6 @@
 ﻿Public Class frmBounce
     Dim g As Graphics
-    Dim c As New Rectangle(20, 20, 90, 90)
+    Dim c As New Rectangle(50, 20, 90, 90)
     Dim r As New Rectangle(0, 0, 130, 130)
     Dim myBallBrush As Brush
     Dim myBGBrush As Brush
@@ -21,7 +21,6 @@
 
     Private Sub SizeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SizeToolStripMenuItem.Click
         frmSize.Show()
-        MsgBox("Not available yet", MsgBoxStyle.Exclamation, "Stub")
     End Sub
 
     Private Sub frmBounce_Load(sender As Object, e As EventArgs) Handles MyBase.Load
