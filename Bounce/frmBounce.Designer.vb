@@ -30,6 +30,7 @@ Partial Class frmBounce
         Me.SpeedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ColourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PanelMain = New System.Windows.Forms.Panel()
         Me.MenuStrip2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -66,19 +67,19 @@ Partial Class frmBounce
         'SizeToolStripMenuItem
         '
         Me.SizeToolStripMenuItem.Name = "SizeToolStripMenuItem"
-        Me.SizeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SizeToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
         Me.SizeToolStripMenuItem.Text = "Size"
         '
         'SpeedToolStripMenuItem
         '
         Me.SpeedToolStripMenuItem.Name = "SpeedToolStripMenuItem"
-        Me.SpeedToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SpeedToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
         Me.SpeedToolStripMenuItem.Text = "Speed"
         '
         'ColourToolStripMenuItem
         '
         Me.ColourToolStripMenuItem.Name = "ColourToolStripMenuItem"
-        Me.ColourToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ColourToolStripMenuItem.Size = New System.Drawing.Size(110, 22)
         Me.ColourToolStripMenuItem.Text = "Colour"
         '
         'HelpToolStripMenuItem
@@ -87,11 +88,19 @@ Partial Class frmBounce
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
+        'PanelMain
+        '
+        Me.PanelMain.Location = New System.Drawing.Point(12, 31)
+        Me.PanelMain.Name = "PanelMain"
+        Me.PanelMain.Size = New System.Drawing.Size(533, 353)
+        Me.PanelMain.TabIndex = 8
+        '
         'frmBounce
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(557, 396)
+        Me.Controls.Add(Me.PanelMain)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.MenuStrip2)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -112,4 +121,5 @@ Partial Class frmBounce
     Friend WithEvents SpeedToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ColourToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents PanelMain As Panel
 End Class

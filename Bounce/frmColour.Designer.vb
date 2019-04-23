@@ -43,74 +43,82 @@ Partial Class frmColour
         'tbrRed
         '
         Me.tbrRed.LargeChange = 16
-        Me.tbrRed.Location = New System.Drawing.Point(29, 34)
+        Me.tbrRed.Location = New System.Drawing.Point(58, 65)
+        Me.tbrRed.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbrRed.Maximum = 255
         Me.tbrRed.Name = "tbrRed"
         Me.tbrRed.Orientation = System.Windows.Forms.Orientation.Vertical
-        Me.tbrRed.Size = New System.Drawing.Size(45, 321)
+        Me.tbrRed.Size = New System.Drawing.Size(90, 617)
         Me.tbrRed.TabIndex = 0
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(29, 15)
+        Me.Label1.Location = New System.Drawing.Point(58, 29)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(27, 13)
+        Me.Label1.Size = New System.Drawing.Size(51, 25)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Red"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(90, 15)
+        Me.Label2.Location = New System.Drawing.Point(180, 29)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(36, 13)
+        Me.Label2.Size = New System.Drawing.Size(71, 25)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "Green"
         '
         'tbrGreen
         '
         Me.tbrGreen.LargeChange = 16
-        Me.tbrGreen.Location = New System.Drawing.Point(90, 34)
+        Me.tbrGreen.Location = New System.Drawing.Point(180, 65)
+        Me.tbrGreen.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbrGreen.Maximum = 255
         Me.tbrGreen.Name = "tbrGreen"
         Me.tbrGreen.Orientation = System.Windows.Forms.Orientation.Vertical
-        Me.tbrGreen.Size = New System.Drawing.Size(45, 321)
+        Me.tbrGreen.Size = New System.Drawing.Size(90, 617)
         Me.tbrGreen.TabIndex = 2
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(153, 15)
+        Me.Label3.Location = New System.Drawing.Point(306, 29)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(28, 13)
+        Me.Label3.Size = New System.Drawing.Size(55, 25)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Blue"
         '
         'tbrBlue
         '
         Me.tbrBlue.LargeChange = 16
-        Me.tbrBlue.Location = New System.Drawing.Point(153, 34)
+        Me.tbrBlue.Location = New System.Drawing.Point(306, 65)
+        Me.tbrBlue.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.tbrBlue.Maximum = 255
         Me.tbrBlue.Name = "tbrBlue"
         Me.tbrBlue.Orientation = System.Windows.Forms.Orientation.Vertical
-        Me.tbrBlue.Size = New System.Drawing.Size(45, 321)
+        Me.tbrBlue.Size = New System.Drawing.Size(90, 617)
         Me.tbrBlue.TabIndex = 4
         '
         'Panel1
         '
-        Me.Panel1.Location = New System.Drawing.Point(199, 21)
+        Me.Panel1.Location = New System.Drawing.Point(398, 40)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(160, 160)
+        Me.Panel1.Size = New System.Drawing.Size(320, 308)
         Me.Panel1.TabIndex = 6
         '
         'optBall
         '
         Me.optBall.AutoSize = True
         Me.optBall.Checked = True
-        Me.optBall.Location = New System.Drawing.Point(205, 206)
+        Me.optBall.Location = New System.Drawing.Point(410, 396)
+        Me.optBall.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.optBall.Name = "optBall"
-        Me.optBall.Size = New System.Drawing.Size(42, 17)
+        Me.optBall.Size = New System.Drawing.Size(79, 29)
         Me.optBall.TabIndex = 7
         Me.optBall.TabStop = True
         Me.optBall.Text = "Ball"
@@ -119,9 +127,10 @@ Partial Class frmColour
         'optBG
         '
         Me.optBG.AutoSize = True
-        Me.optBG.Location = New System.Drawing.Point(204, 229)
+        Me.optBG.Location = New System.Drawing.Point(408, 440)
+        Me.optBG.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.optBG.Name = "optBG"
-        Me.optBG.Size = New System.Drawing.Size(83, 17)
+        Me.optBG.Size = New System.Drawing.Size(158, 29)
         Me.optBG.TabIndex = 8
         Me.optBG.TabStop = True
         Me.optBG.Text = "Background"
@@ -129,18 +138,20 @@ Partial Class frmColour
         '
         'btnOK
         '
-        Me.btnOK.Location = New System.Drawing.Point(205, 265)
+        Me.btnOK.Location = New System.Drawing.Point(410, 510)
+        Me.btnOK.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(106, 28)
+        Me.btnOK.Size = New System.Drawing.Size(212, 54)
         Me.btnOK.TabIndex = 9
         Me.btnOK.Text = "OK"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.Location = New System.Drawing.Point(204, 308)
+        Me.btnCancel.Location = New System.Drawing.Point(408, 592)
+        Me.btnCancel.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(106, 28)
+        Me.btnCancel.Size = New System.Drawing.Size(212, 54)
         Me.btnCancel.TabIndex = 10
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = True
@@ -148,26 +159,28 @@ Partial Class frmColour
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 34)
+        Me.Label4.Location = New System.Drawing.Point(24, 65)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(25, 13)
+        Me.Label4.Size = New System.Drawing.Size(48, 25)
         Me.Label4.TabIndex = 11
         Me.Label4.Text = "255"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(12, 338)
+        Me.Label5.Location = New System.Drawing.Point(24, 650)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(13, 13)
+        Me.Label5.Size = New System.Drawing.Size(24, 25)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "0"
         '
         'frmColour
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(371, 360)
+        Me.ClientSize = New System.Drawing.Size(742, 692)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.btnCancel)
@@ -181,6 +194,7 @@ Partial Class frmColour
         Me.Controls.Add(Me.tbrGreen)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tbrRed)
+        Me.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "frmColour"
