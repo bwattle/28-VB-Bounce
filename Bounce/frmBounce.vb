@@ -1,4 +1,5 @@
 ﻿Public Class frmBounce
+    'Project from Ch 8  of the Sam Davis text http://www.pedc.com.au/sdd.php
     Dim g As Graphics
     Dim c As New Rectangle(50, 20, 90, 90)
     Dim r As New Rectangle(0, 0, 130, 130)
@@ -24,10 +25,10 @@
     End Sub
 
     Private Sub frmBounce_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        shpBallFill_R = 10
+        shpBallFill_R = 10      'set default ball colour - numbers are easy to remember
         shpBallFill_G = 100
         shpBallFill_B = 200
-        shpBGFill_R = 250
+        shpBGFill_R = 250       'set default background colour - numbers are easy to remember
         shpBGFill_G = 150
         shpBGFill_B = 50
     End Sub

@@ -73,3 +73,18 @@ C:\Users\ngoodyer\OneDrive - NSW Department of Education\Code\28-Bounce-DavisCh8
 C:\Users\ngoodyer\OneDrive - NSW Department of Education\Code\28-Bounce-DavisCh8\Bounce-06-ColourBetter\Bounce\obj\Debug\Bounce.exe
 C:\Users\ngoodyer\OneDrive - NSW Department of Education\Code\28-Bounce-DavisCh8\Bounce-06-ColourBetter\Bounce\obj\Debug\Bounce.xml
 C:\Users\ngoodyer\OneDrive - NSW Department of Education\Code\28-Bounce-DavisCh8\Bounce-06-ColourBetter\Bounce\obj\Debug\Bounce.pdb
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\bin\Debug\Bounce.exe.config
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\bin\Debug\Bounce.exe
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\bin\Debug\Bounce.pdb
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\bin\Debug\Bounce.xml
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.vbprojAssemblyReference.cache
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.frmBounce.resources
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.frmColour.resources
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.Resources.resources
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.frmSize.resources
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.frmSpeed.resources
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.vbproj.GenerateResource.cache
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.vbproj.CoreCompileInputs.cache
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.exe
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.xml
+C:\Users\nevgo\OneDrive - NSW Department of Education and Communities\GitRepos\28-VB-Bounce\Bounce\obj\Debug\Bounce.pdb
